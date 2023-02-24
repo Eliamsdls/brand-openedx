@@ -1,2 +1,12 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
+
+body{
+  background-color: black !important;
+}
+
+#root{
+    div{
+        background-color: yellow !important;
+    }
+}
