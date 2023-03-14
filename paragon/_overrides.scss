@@ -2,15 +2,6 @@
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 
 //override
-#content.content-wrapper {
-  background-color: #000;
-}
-
-
-
-
-
-
 #root {
   display: flex;
   flex-direction: column;
@@ -156,7 +147,7 @@ p{
     }
 
     &.complete {
-      background-color: #eef7e5;
+      background-color: #000;
       color: $success;
     }
 
@@ -342,6 +333,7 @@ p{
   // identifying it by based on a unique attribute it has which its siblings don't share.
   > div[data-focus-lock-disabled="false"] {
     height: 100%;
+    background-color: black;
   }
 
   // Along with setting the height of modal-content's parent div from react-focus-on, we need to
@@ -371,4 +363,8 @@ p{
 .raised-card {
   border: 0 !important;
   box-shadow: 0 .0625rem .125rem rgba(0, 0, 0, .2) !important;
+}
+
+#content.content-wrapper {
+  background-color: #000;
 }
