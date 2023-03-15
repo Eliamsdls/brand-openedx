@@ -11,7 +11,7 @@ div{
   background-color: #000 !important;
 }
 p{
-  color: crimson !important;
+  color: white !important;
 }
 header {
   color: white;
@@ -23,31 +23,31 @@ footer{
   background-color: #000;
 }
 
-.btn {
-  appearance: none;
-  cursor: pointer;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #dd2227;
-  border-radius: 4px;
-  color: #fff;
-  text-decoration: none;
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: transparent;
-  letter-spacing: 0;
-  transition: background-color 0.5s, color 0.5s;
-  box-shadow: none;
-  background-image: none;
-}
+// .btn {
+//   appearance: none;
+//   cursor: pointer;
+//   border-width: 2px;
+//   border-style: solid;
+//   border-color: #dd2227;
+//   border-radius: 4px;
+//   color: #fff;
+//   text-decoration: none;
+//   display: inline-block;
+//   padding: 10px 20px;
+//   background-color: transparent;
+//   letter-spacing: 0;
+//   transition: background-color 0.5s, color 0.5s;
+//   box-shadow: none;
+//   background-image: none;
+// }
 
-.btn:hover{
-  background-color: #dd2227 !important;
-  color: #fff;
-  background-image: none !important;
-  border-color: $primary !important;
-  box-shadow: none;
-}
+// .btn:hover{
+//   background-color: #dd2227 !important;
+//   color: #fff;
+//   background-image: none !important;
+//   border-color: $primary !important;
+//   box-shadow: none;
+// }
 
 
 
